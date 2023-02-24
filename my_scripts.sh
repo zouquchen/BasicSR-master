@@ -8,6 +8,7 @@
 # python basicsr/train.py -opt options/train/RealESRGAN/train_realesrgan_x4plus_zqc.yml
 
 
+# set CUDA_VISIBLE_DEVICES=1
 
 # 测试ESRGAN
 python basicsr/test.py -opt options/test/ESRGAN/test_ESRGAN_x4_zqc.yml
