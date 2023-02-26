@@ -7,8 +7,8 @@ function generate_bicubic_img()
 % input_folder = '../../datasets/Set5/original';
 % save_mod_folder = '../../datasets/Set5/GTmod12';
 % save_lr_folder = '../../datasets/Set5/LRbicx2';
-input_folder = 'D:/zqc2/2-dataset/LDL-datasets/DIV2K/DIV2K_valid_HR';
-save_lr_folder = 'D:/zqc2/2-dataset/LDL-datasets/DIV2K/DIV2K_valid_LR_bicubic/X4';
+input_folder = 'D:/zqc2/2-dataset/LDL-datasets/MyTest/HR';
+save_lr_folder = 'D:/zqc2/2-dataset/LDL-datasets/MyTest/LR';
 % save_bic_folder = '';
 
 mod_scale = 12;

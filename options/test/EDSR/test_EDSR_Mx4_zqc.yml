@@ -35,7 +35,13 @@ datasets:
     #filename_tmpl: '{}x4'
     io_backend:
       type: disk
-
+  test_5:
+    name: DOTA
+    type: PairedImageDataset
+    dataroot_gt: D:/zqc2/2-dataset/dota1.5_ss/val/images
+    dataroot_lq: D:/zqc2/2-dataset/dota1.5_ss/val/images_bicubic
+    io_backend:
+      type: disk
 # network structures
 network_g:
   type: EDSR

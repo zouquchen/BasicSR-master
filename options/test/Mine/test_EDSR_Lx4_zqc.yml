@@ -38,11 +38,17 @@ datasets:
   test_5:
     name: DOTA
     type: PairedImageDataset
-    dataroot_gt: D:/zqc2/2-dataset/dota1.5_ss/val/images
-    dataroot_lq: D:/zqc2/2-dataset/dota1.5_ss/val/images_bicubic
+    dataroot_gt: D:/zqc2/2-dataset/LDL-datasets/Dota110/HR
+    dataroot_lq: D:/zqc2/2-dataset/LDL-datasets/Dota110/LR
     io_backend:
       type: disk
-
+  test_6:
+    name: MyTest
+    type: PairedImageDataset
+    dataroot_gt: D:/zqc2/2-dataset/LDL-datasets/MyTest/HR
+    dataroot_lq: D:/zqc2/2-dataset/LDL-datasets/MyTest/LR
+    io_backend:
+      type: disk
 # network structures
 network_g:
   type: EDSR
